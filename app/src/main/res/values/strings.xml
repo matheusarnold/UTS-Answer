@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="header_title">My Inventory</string>
+    <string name="btn_text">+</string>
+    <string name="title_header">My Inventory</string>
+    <string name="item_hint">Enter the item name</string>
+    <string name="desc_hint">Enter the item description</string>
+    <string name="qty_hint">Enter the item amount</string>
+    <string name="button_submit">Submit</string>
+    <string name="item_view">Item</string>
+    <string name="desc_view">Description</string>
+    <string name="qty_view">Quantity</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddDataActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header_title"
+        android:text="@string/header_title"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/blackColor"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemName"
+        android:layout_below="@id/header_title"
+        android:hint="@string/item_hint"
+        android:padding="8dp"
+        android:layout_marginTop="24dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemDesc"
+        android:layout_below="@id/itemName"
+        android:hint="@string/desc_hint"
+        android:padding="8dp"
+        android:layout_marginTop="24dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemQty"
+        android:layout_below="@id/itemDesc"
+        android:hint="@string/qty_hint"
+        android:inputType="number"
+        android:padding="8dp"
+        android:layout_marginTop="24dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:background="@drawable/btn_prop"
+        android:text="@string/button_submit"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/whiteColor"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_below="@id/itemQty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        />
+
+</RelativeLayout>
